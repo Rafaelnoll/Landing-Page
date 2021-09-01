@@ -20,7 +20,7 @@ header {
 
 .container-botao-inscrever {
     position: absolute;
-    right: 25%;
+    right: 30%;
     top: 20%;
 }
 
@@ -70,7 +70,7 @@ header {
 
     .logo{
         margin: 0 0 ;
-        width: 50%;
+        width: 70%;
     }
 
     .container-header {

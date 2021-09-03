@@ -1,0 +1,81 @@
+.sobre-teufuturo {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #5D3FD3;
+    margin: 40px 20%;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.titulo-sobre-teufuturo {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.sobre-teufuturo img {
+    width: 300px;
+    float: right;
+    margin: 10px 10px;
+}
+
+.sobre-teufuturo p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.sobre-teufuturo a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1300px){
+    
+    .titulo-sobre-teufuturo {
+        font-size: 30px;
+    }
+    
+    .sobre-teufuturo img {
+        width: 300px;
+    }
+    
+    .sobre-teufuturo p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .sobre-teufuturo a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:780px){
+
+    .sobre-teufuturo {
+        margin: 30px 5%;
+    }
+
+    .titulo-sobre-teufuturo {
+        font-size: 20px;
+    }
+    
+    .sobre-teufuturo img {
+        width: 220px;
+    }
+    
+    .sobre-teufuturo p {
+        font-size: 18px;
+    }
+    
+    .sobre-teufuturo a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .sobre-teufuturo img {
+        float: none;
+    }
+}

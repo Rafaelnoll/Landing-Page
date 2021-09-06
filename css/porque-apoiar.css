@@ -1,0 +1,34 @@
+.porque-apoiar {
+    padding: 25px 25px;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #6100a1;
+    border-radius: 20px;
+}
+
+.porque-apoiar .titulo{
+    color: #2ecc71;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.porque-apoiar p {
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+    .porque-apoiar {
+        padding: 15px 15px;
+    }
+    
+    .porque-apoiar .titulo{
+        font-size: 20px;
+    }
+    
+    .porque-apoiar p {
+        font-size: 17px;
+    }
+}

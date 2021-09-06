@@ -1,24 +1,23 @@
 .sobre-teufuturo {
-    border: 1px solid #000000;
     border-radius: 20px;
-    box-shadow: 3px 3px 6px #5D3FD3;
     margin: 40px 20%;
     text-align: center;
     padding: 10px 15px;
 }
 
 .titulo-sobre-teufuturo {
+    color: #F1C40F;
     display: inline-block;
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding-bottom: 15px;
 }
 
 .sobre-teufuturo img {
     width: 300px;
     float: right;
-    margin: 10px 10px;
+    margin: 0 10px;
 }
 
 .sobre-teufuturo p {

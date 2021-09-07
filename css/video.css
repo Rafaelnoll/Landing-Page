@@ -1,0 +1,46 @@
+.video {
+	text-align: center;
+	background-color: #6100a1;
+	padding: 20px 0;
+    margin: 20px auto;
+}
+
+.video .titulo {
+	font-size: 35px;
+	text-transform: uppercase;
+    font-weight:bold;
+    margin: 0 0 15px 0;
+    color: #F1C40F;
+}
+
+.video h2 {
+	font-size: 30px;
+	font-weight: unset;
+	color: #FFFFFF; 
+	margin-top: 20px;
+}
+
+.video iframe {
+	margin-top: 45px;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+    
+    .video .titulo {
+        font-size: 25px;
+        font-weight:bold;
+        margin: 15px 0;
+        text-transform: uppercase;
+    }
+    
+    .video-iframe {
+        width: 200px;
+        margin: 10px 0;
+    }
+
+@media screen and (max-width: 420px){
+    .video-iframe{
+        width: 350px;
+    }
+}

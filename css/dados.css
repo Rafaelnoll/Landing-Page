@@ -1,0 +1,57 @@
+.dados {
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px auto;
+    background-color:#6100a1;
+}
+
+.dados .titulo{
+    font-size: 35px;
+    font-weight:bold;
+    margin: 0 0 15px 0;
+    color: #FFFFFF;
+}
+
+.dados .sub-titulo {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0 10% 15px 10%;
+}
+
+.item-dado {
+    width: 160px;
+    height: 200px;
+    vertical-align: top;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color:#6100a1;
+}
+
+.item-dado .porcentagem {
+    font-size: 50px;
+    font-weight:bold;
+    color:#2ecc71;
+    margin: 10px 0;
+}
+
+.item-dado .descricao {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.item-dado:hover {
+    transform: scale(120%);
+    transition: 1s;
+}
+
+@media screen and (max-width:420px){
+    .dados .titulo{
+        font-size: 25px;
+    }
+
+    .dados .sub-titulo{
+        font-size: 16px;
+    }
+}

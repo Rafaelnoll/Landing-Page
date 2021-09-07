@@ -2,7 +2,7 @@
     padding: 25px 25px;
     color: #FFFFFF;
     width: 50%;
-    margin: 15px auto;
+    margin: 30px auto;
     text-align: center;
     background-color: #6100a1;
     border-radius: 20px;
@@ -17,6 +17,7 @@
 
 .porque-apoiar p {
     font-size: 20px;
+    line-height: 25px;
 }
 
 @media screen and (max-width:600px){

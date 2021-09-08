@@ -19,3 +19,59 @@
 	font-weight: bold;
 	font-size: 22px;
 }
+
+.form-apoiar {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.form-apoiar label, .form-apoiar input {
+	display:block;
+}
+
+.form-apoiar label {
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.form-apoiar input {
+	width: 100%;
+	height: 35px;
+	border-radius: 15px;
+	border: 1px solid #000000;
+}
+
+.caixa-de-contato, .caixa-de-horario-de-contato{
+	text-align: center;
+	width: 25%;
+	height:50px;
+	font-size:17px;
+}
+
+.opcoes-de-contato,.opcoes-de-horario {
+	font-size: 17px;
+	
+}
+
+.caixa-botao-enviar {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.botao-enviar {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 25px 35px;
+	border-radius: 20px;
+	border: none;
+	background-color: #2ECC71;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.botao-enviar:hover {
+	background-color: #00A36C;
+	transform: scale(110%);
+}

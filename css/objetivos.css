@@ -6,6 +6,8 @@
 
 .objetivos .titulo {
     font-size: 30px;
+    color: #6100a1;
+    text-transform: uppercase;
     margin: 3% 0;
     font-weight: bold;
 }
@@ -13,6 +15,7 @@
 .item-objetivo {
     border: 1px solid;
     background-color: #2ecc71;
+    box-shadow: -2px -2px 6px grey, 2px 2px 6px grey;
     color: #FFFFFF;
     display: inline-block;
     text-align: center;
@@ -21,6 +24,7 @@
     margin: 10px 10px;
     vertical-align: top;
     border-radius: 20px;
+    transition: border-color 0.5s;
 }
 
 .numero-objetivo {

@@ -1,6 +1,6 @@
 .video {
 	text-align: center;
-	background-color: #6100a1;
+	background:linear-gradient(#6100a1,#F1C40F) ;
 	padding: 20px 0;
     margin: 0 auto;
 }

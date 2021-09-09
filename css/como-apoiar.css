@@ -1,9 +1,15 @@
+.como-apoiar{
+	color: white;
+	background-color: #6100a1;
+	padding: 20px 0;
+}
+
 .como-apoiar .titulo {
 	text-align: center;
 	font-size: 30px;
     margin: 2% 0;
     font-weight: bold;
-    color: #6100a1;
+    color: #F1C40F;
     text-transform: uppercase;
 }
 
@@ -52,6 +58,11 @@
 .opcoes-de-contato,.opcoes-de-horario {
 	font-size: 17px;
 	
+}
+
+.area-de-texto {
+	width: 70%;
+	height: 100px;
 }
 
 .caixa-botao-enviar {

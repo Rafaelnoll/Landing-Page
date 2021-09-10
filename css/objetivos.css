@@ -13,7 +13,7 @@
 }
 
 .item-objetivo {
-    border: 1px solid;
+    border: 1px solid #2ecc71;
     background-color: #2ecc71;
     box-shadow: -2px -2px 6px grey, 2px 2px 6px grey;
     color: #FFFFFF;
@@ -42,7 +42,7 @@
 }
 
 .item-objetivo:hover {
-    border-color:#00A36C;
+    border-color:#6100a1;
 }
 
 

@@ -21,6 +21,7 @@
     text-align: center;
     padding: 15px 20px;
     width: 300px;
+    height: 200px;
     margin: 10px 10px;
     vertical-align: top;
     border-radius: 20px;
@@ -73,6 +74,7 @@
 
 @media screen and (max-width: 420px){
     .item-objetivo{
-        width: 150px;
+        width: 90%;
+        height: auto;
     }
 }

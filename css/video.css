@@ -6,7 +6,7 @@
 }
 
 .video .titulo {
-	font-size: 35px;
+	font-size: 30px;
 	text-transform: uppercase;
     font-weight:bold;
     margin: 0 0 15px 0;
@@ -14,7 +14,7 @@
 }
 
 .video h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: unset;
 	color: #FFFFFF; 
 	margin-top: 20px;
@@ -36,13 +36,9 @@
     }
     
     .video-iframe {
-        width: 200px;
+        width: 85%;
         margin: 10px 0;
     }
 
-@media screen and (max-width: 420px){
-    .video-iframe{
-        width: 350px;
-    }
-}
+
 }

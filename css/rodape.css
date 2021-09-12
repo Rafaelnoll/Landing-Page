@@ -6,8 +6,24 @@ footer {
 footer .titulo {
 	font-size: 30px;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #6100a1;
 	text-align: left;
 	padding-left: 2%;
 	text-transform: uppercase;
-}	
+	display: block;
+	margin-bottom: 95px;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+
+footer .logo-contato {
+	width: 60px;
+	text-align: left;
+	display: inline-block;
+	margin-left: 5%;
+}

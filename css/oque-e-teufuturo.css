@@ -26,6 +26,13 @@
     line-height: 35px;
 }
 
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
 
 @media screen and (max-width:1300px){
     

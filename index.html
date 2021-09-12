@@ -16,19 +16,23 @@
     <link rel='stylesheet' href="css/como-apoiar.css">
     <link rel='stylesheet' href="css/video.css">
     <link rel='stylesheet' href="css/rodape.css">
-
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/light-mode.css">
+    <link rel="stylesheet" href="css/topicos.css">
 </head>
 
 <body>
     <header>
         <div class="container-header">
             <h1><img class="logo" src="img/logo-teufuturo-delas.png"></h1>
+            <img class="dark-mode" src="img/modo-dark.png">
+            <img class="light-mode invisivel" src="img/modo-light.png">
             <div class="container-botao-inscrever">
                 <a class="botao-inscrever" href="#como-apoiar">Apoiar Projeto</a>
             </div>
         </div>
     </header>
-    <section class="topicos">
+    <section class="topicos secao-personalizavel">
         <div class="lista-topicos">
             <ul>
                 <li><a href="#porque-apoiar">Por que apoiar o projeto?</a></li>
@@ -42,11 +46,11 @@
             <div id="sobre-teufuturo" class="sobre-teufuturo">
                 <h1 class="titulo-sobre-teufuturo">O que é o #TeuFuturo Delas?</h1>
                 <img src="img/sobre-teufuturo.jpg">
-                <p>Com a proposta de impulsionar meninas na carreira da tecnologia, buscando um cenário científico e
+                <p class="linhas-oque-e">Com a proposta de impulsionar meninas na carreira da tecnologia, buscando um cenário científico e
                     tecnológico mais equitativo e diverso, Isaura, uma das embaixadoras do programa #TeuFuturo, lançou a ramificação #TeuFuturo
                     Delas.
                 </p>
-                <p>“Essa iniciativa consiste em aproximar meninas da área da programação, dando a elas apoio, informação
+                <p class="linhas-oque-e">“Essa iniciativa consiste em aproximar meninas da área da programação, dando a elas apoio, informação
                     e
                     ferramentas para que consigam estar inseridas
                     nesse contexto. Vamos trabalhar com posts informativos, exemplos de mulheres na ciência, dicas de
@@ -58,7 +62,7 @@
         </section>
 
         <section>
-            <div id="dados" class="dados">
+            <div id="dados" class="dados secao-personalizavel">
                 <h1 class="titulo">Dados</h1>
                 <h2 class="sub-titulo">#TeuFuturo Delas é uma ramificação do programa #TeuFuturo. A iniciativa surgiu a
                     partir de alguns dados e conversas que indicavam um déficit de mão de obra feminina na tecnologia:
@@ -91,7 +95,7 @@
         </section>
 
         <section>
-            <div id="porque-apoiar" class="porque-apoiar">
+            <div id="porque-apoiar" class="porque-apoiar secao-personalizavel">
                 <h1 class="titulo">Por que apoiar o projeto?</h1>
                 <p>Apoiando o projeto você estará ajudando várias meninas com vontade de entrar no mundo da programação
                     e da Tecnologia, além de promover a diversificação do cenário científico e tecnológico.</p>
@@ -100,7 +104,7 @@
 
         <section>
             <div class="objetivos">
-                <h1 class="titulo">Objetivos do Projeto</h1>
+                <h1 class="titulo titulo-objetivo">Objetivos do Projeto</h1>
                 <ul>
                     <li class="item-objetivo">
                         <h1 class="numero-objetivo">1</h1>
@@ -130,7 +134,7 @@
         </section>
 
         <section>
-            <div id="como-apoiar" class="como-apoiar">
+            <div id="como-apoiar" class="como-apoiar secao-personalizavel">
                 <h1 class="titulo">Como posso apoiar?</h1>
                 <h2 class="sub-titulo">Preencha o formulário que entraremos em contato com as etapas!</h2>
                 <form class="form-apoiar">
@@ -167,7 +171,7 @@
         </section>
 
         <section>
-            <div id="webnar" class="video">
+            <div id="webinar" class="video gradient-personalizado">
                 <h1 class="titulo">Quer saber mais sobre o assunto?<h1>
                         <h2 class="texto">Considere assistir a um webinar especialmente sobre este tema!<h2>
                                 <iframe class="video-iframe" width="560" height="315"
@@ -177,9 +181,11 @@
                                     allowfullscreen></iframe>
         </section>
     </main>
-    <footer>
+    <footer class="meios-de-contato">
         <h1 class="titulo">Meios de contato:</h1>
     </footer>
 </body>
-<script src="js/form.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/darkMode.js"></script>
+    <script src="js/lightMode.js"></script>
 </htmL>

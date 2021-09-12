@@ -1,0 +1,12 @@
+.light-mode{
+    position: absolute;
+    border-radius:50%;
+    width: 60px;
+    right: 1%;
+    top:1%;
+    cursor: pointer;
+}
+
+.invisivel {
+    display: none;
+}

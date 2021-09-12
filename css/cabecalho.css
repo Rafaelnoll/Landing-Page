@@ -41,28 +41,6 @@ header {
     background-color: #229954;
 }
 
-.topicos {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #6100a1 ;
-}
-
-.lista-topicos li {
-    display: inline-block;
-    margin: 5px 15px;
-}
-
-.lista-topicos a {
-    color: #FFFFFF;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.lista-topicos a:hover {
-    color:#2ECC71 ;
-}
-
-
 @media screen and (max-width: 950px){
   
     header {
@@ -90,14 +68,6 @@ header {
         padding: 10px 15px;
     }
 
-    .lista-topicos li {
-        display: inline-block;
-        margin: 10px 10px;
-    }
-    
-    .lista-topicos a {
-        font-size: 13px;
-    }
 }
 
 @media screen and (max-width: 600px){

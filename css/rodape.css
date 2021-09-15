@@ -8,7 +8,7 @@ footer .titulo {
 	font-weight: bold;
 	color: #6100a1;
 	text-align: left;
-	padding-left: 2%;
+	padding-left: 3%;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 95px;
@@ -17,13 +17,17 @@ footer .titulo {
 footer a {
 	color: #FFFFFF;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 20px;
-	display: inline-block;
+	display: inline;
+	vertical-align: middle;
 }
 
 footer .logo-contato {
 	width: 60px;
 	text-align: left;
-	display: inline-block;
 	margin-left: 5%;
+	vertical-align: middle;
+	padding-right: 2%;
+	margin-bottom: 20px;
 }

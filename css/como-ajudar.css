@@ -1,4 +1,4 @@
-.porque-apoiar {
+.como-ajudar {
     padding: 25px 25px;
     color: #FFFFFF;
     width: 50%;
@@ -8,7 +8,7 @@
     border-radius: 20px;
 }
 
-.porque-apoiar .titulo{
+.como-ajudar .titulo{
     color: #F1C40F;
     font-size: 30px;
     margin-bottom: 15px;
@@ -16,21 +16,32 @@
     font-weight: bold;
 }
 
-.porque-apoiar p {
+.como-ajudar p, .como-ajudar a {
     font-size: 20px;
     line-height: 25px;
 }
 
+.como-ajudar a {
+    font-weight:bold;
+    color:#2ecc71;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 @media screen and (max-width:600px){
-    .porque-apoiar {
+    .como-ajudar {
         padding: 15px 15px;
     }
     
-    .porque-apoiar .titulo{
+    .como-ajudar .titulo{
         font-size: 20px;
     }
     
-    .porque-apoiar p {
+    .como-ajudar p{
         font-size: 17px;
+    }
+
+    .como-ajudar a{
+        font-size: 20px;
     }
 }

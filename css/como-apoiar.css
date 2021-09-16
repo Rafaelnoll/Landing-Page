@@ -113,5 +113,9 @@
 	.opcoes-de-contato,.opcoes-de-horario {
 		font-size: 15px;
 	}
+
+	.area-de-texto{
+		width: 80%;
+	}
 }
 }

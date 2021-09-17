@@ -32,3 +32,11 @@
 .gradient-video-dark-mode{
     background: linear-gradient(#220344,#F1C40F);
 }
+
+.gradient-desenvolvedor-dark-mode{
+    background:radial-gradient(#2d2261 10% ,#220344 80%);
+}
+
+.gradient-final-dark-mode{
+    background: linear-gradient(#F1C40F, #220344);
+}

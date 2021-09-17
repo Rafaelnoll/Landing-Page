@@ -43,5 +43,12 @@ function ativaLightMode(){
     
     var videoGradient = document.querySelector(".gradient-personalizado");
     videoGradient.classList.remove("gradient-video-dark-mode");
+
+    var desenvolvedores = document.querySelectorAll(".desenvolvedor");
+    desenvolvedores[0].classList.remove("gradient-desenvolvedor-dark-mode");
+    desenvolvedores[1].classList.remove("gradient-desenvolvedor-dark-mode");
+
+    var finalGradient = document.querySelector(".secao-end");
+    finalGradient.classList.remove("gradient-final-dark-mode");
     
 }

@@ -101,6 +101,32 @@ footer .logo-contato {
 	border: 2px solid #F1C40F;
 }
 
+.secao-end{
+	padding: 3em 0;
+	background: linear-gradient(#F1C40F, #6100a1);
+	text-align: center;
+}
+
+.secao-end img {
+	width: 15%;
+}
+
+.volta-para-inicio{
+	background-color: #6100a1 ;
+	text-align: center;
+	padding: 20px 0;
+	cursor: pointer;
+	transition: background-color 0.5s;
+}
+
+.volta-para-inicio:hover{
+	background-color:#41016b;
+}
+
+.volta-para-inicio p {
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
 
 @media screen and (max-width: 1300px){
 
@@ -113,6 +139,9 @@ footer .logo-contato {
 		width: 50%;
 	}
 
+	.secao-end img {
+		width: 25%;
+	}
 
 }
 
@@ -149,6 +178,11 @@ footer .logo-contato {
 	.list-meios-de-contato{
 		width: 100%;
 	}
+
+	.secao-end img {
+		width: 35%;
+	}
+
 
 }
 

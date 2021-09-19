@@ -29,6 +29,10 @@
     box-shadow: -2px -2px 6px #525252, 2px 2px 6px #525252;
 }
 
+.cards-objetivos-dark-mode:hover{
+    border-color: #2ecc71;
+}
+
 .gradient-video-dark-mode{
     background: linear-gradient(#220344,#F1C40F);
 }

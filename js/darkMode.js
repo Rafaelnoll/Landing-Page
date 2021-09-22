@@ -16,12 +16,6 @@ function ativaDarkMode(){
         secoesDarkMode.classList.add("secoes-dark-mode");
     });
     
-    var dados = document.querySelectorAll(".item-dado");
-    dados.forEach(function(dados){
-        dados.classList.add("secoes-dark-mode");
-    });
-    
-    
     var body = document.querySelector("body");
     body.classList.add("body-dark-mode");
     
